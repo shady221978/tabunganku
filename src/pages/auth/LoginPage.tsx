@@ -146,25 +146,7 @@ export default function LoginPage() {
               </Button>
             </form>
 
-            <div className="mt-6 space-y-4">
-              <div className="relative">
-                <div className="absolute inset-0 flex items-center">
-                  <span className="w-full border-t" />
-                </div>
-                <div className="relative flex justify-center text-xs uppercase">
-                  <span className="bg-white px-2 text-muted-foreground">Demo Akun</span>
-                </div>
-              </div>
-
-              <div className="grid gap-2 text-sm bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold">Akun Demo:</p>
-                <div className="space-y-1 text-xs">
-                  <p><strong>Admin:</strong> admin@tabunganku.com</p>
-                  <p><strong>User:</strong> budi@example.com</p>
-                  <p className="text-muted-foreground italic">Password: bebas (demo mode)</p>
-                </div>
-              </div>
-
+            <div className="mt-6">
               <div className="text-center text-sm">
                 Belum punya akun?{' '}
                 <Link to="/register" className="text-primary font-semibold hover:underline">
